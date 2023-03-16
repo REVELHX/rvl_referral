@@ -1,0 +1,29 @@
+html,
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 100%;
+    margin-left: 30vw;
+    background: none !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    user-select: none;
+    gap: 0.5vw;
+
+}
+
+#container {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 0.8vw;
+    background: linear-gradient(150deg, #01252d 0%, #000e11 100%);
+    width: 20vw;
+    height: 22vw;
+    border-radius: 0.2vw;
+
+}
